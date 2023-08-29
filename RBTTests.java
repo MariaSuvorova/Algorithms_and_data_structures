@@ -10,6 +10,7 @@ public static void main(String[] args) throws IOException {
     try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))){
         while (true) {
             try {
+                System.out.println("ВВедите значение: ");
                 int value = Integer.parseInt(reader.readLine());
                 tree.add(value);
                 System.out.println("done root" + tree.root);
